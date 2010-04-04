@@ -1,0 +1,22 @@
+body
+{
+	padding: none;
+
+	background-color: #808080;
+	background-image: url(images/background_160x160.png);
+	background-attachment: fixed;
+	background-position: top left;
+	background-repeat: repeat-y;
+
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	width: 160px;
+}
+
+img.logo
+{
+	outline: #000000 solid thin;
+	position: fixed;
+	top: 0px;
+}
