@@ -1,22 +1,36 @@
 body
 {
+	max-width: 160px;
+	min-height: 160px;
+	margin: none;
 	padding: none;
 
-	background-color: #808080;
-	background-image: url(images/background_160x160.png);
-	background-attachment: fixed;
-	background-position: top left;
-	background-repeat: repeat-y;
-
-	position: absolute;
-	top: -10px;
-	left: -10px;
-	width: 160px;
+	background-color: gray;
 }
 
-img.logo
+div.template
 {
-	outline: #000000 solid thin;
+	min-width: 160px;
+	height: 16px;
 	position: fixed;
-	top: 0px;
+	top: none;
+	left: none;
+	z-index: 1;
+
+	background-color: blue;
+}
+
+div.contents
+{
+	min-height: 160px;
+	position: relative;
+	top: 16px;
+	z-index: 0;
+	background-color: yellow;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 120%;
 }
